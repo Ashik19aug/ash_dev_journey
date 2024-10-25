@@ -5,12 +5,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npx create-next-app@latest
-cd /app_name
-npm run dev
+    npm create-next-app@latest
+    cd /app_name
+    npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Additional dependencies
+```bash
+    npm install bcrypt
+    npm install next-auth
+    npm install mongodb mongoose
+```
 
 
 ## Learn More
