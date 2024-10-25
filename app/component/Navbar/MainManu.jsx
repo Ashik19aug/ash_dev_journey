@@ -12,7 +12,7 @@ const MainManu = () => {
                 <div key={index}>
                     <Link
                         href={button.path}
-                        className={`text-xs text-white py-1 px-2 rounded ${
+                        className={`text-xs font-light text-white py-1 px-2 rounded ${
                             pathname === button.path ? "bg-gradient-to-r from-teal-400 to-blue-500" : ""
                         }`}
                     >
